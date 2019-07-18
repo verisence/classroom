@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86094161-30b0-4f40-a227-c68a359866f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/classroom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/room/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/room/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/room/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/room/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/room/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/room/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="54" />
     <option name="width" value="1400" />
@@ -34,6 +56,11 @@
             <path>
               <item name="classroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="classroom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classroom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classroom" type="462c0819:PsiDirectoryNode" />
+              <item name="room" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -68,18 +95,26 @@
       <option name="presentableId" value="Default" />
       <updated>1563365175514</updated>
     </task>
+    <task id="LOCAL-00001" summary="creating student template">
+      <created>1563366035817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563366035817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="54" width="1400" height="1000" extended-state="0" />
+    <frame x="0" y="28" width="1920" height="1052" extended-state="7" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18095239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49927008" visible="true" weight="0.3297362" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007299" side_tool="true" visible="true" weight="0.3297362" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49927008" visible="true" weight="0.31038374" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007299" side_tool="true" weight="0.3297362" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -91,5 +126,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating student template" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating student template" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/room/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
