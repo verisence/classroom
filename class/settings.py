@@ -39,12 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'room',
     'bootstrap4'
 =======
 >>>>>>> origin/feature/emma
 =======
 >>>>>>> e7c3181bd584e228b87694c2d0e35db72f51b3cd
+=======
+    'room',
+    'bootstrap4'
+>>>>>>> origin/austin
 ]
 
 MIDDLEWARE = [
