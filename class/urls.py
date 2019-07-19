@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from django.conf.urls import url
 from django.conf.urls import url,include
@@ -21,14 +22,21 @@ from django.conf.urls import url,include
 =======
 from django.conf.urls import url
 >>>>>>> origin/feature/emma
+=======
+from django.conf.urls import url,include
+>>>>>>> e7c3181bd584e228b87694c2d0e35db72f51b3cd
 from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+<<<<<<< HEAD
 <<<<<<< HEAD
 
      url(r'',include('room.urls')),
 
 =======
 >>>>>>> origin/feature/emma
+=======
+     url(r'',include('room.urls')),
+>>>>>>> e7c3181bd584e228b87694c2d0e35db72f51b3cd
 ]

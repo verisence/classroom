@@ -1,5 +1,6 @@
 from django.shortcuts import render
 <<<<<<< HEAD
+<<<<<<< HEAD
 from .models import Student
 from .forms import StudentForm
 from django.contrib.auth.decorators import login_required
@@ -24,3 +25,8 @@ def add_student(request):
 
 # Create your views here.
 >>>>>>> origin/feature/emma
+=======
+from .models import *
+
+
+>>>>>>> e7c3181bd584e228b87694c2d0e35db72f51b3cd
